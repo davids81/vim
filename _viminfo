@@ -17,13 +17,18 @@
 $
 
 # Command Line History (newest to oldest):
-:q
+:so ~/_vimrc
+:bn
+:e d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+:so %
 :w
+:q
+:help tabstop
+:help backspace
+:e ~/_vimrc
 :bnext
 :b
-:e ~/_vimrc
 :e D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-:so %
 :b 1
 :ls
 :so ~\_vimrc
@@ -32,11 +37,6 @@ $
 :.b10
 :b 6
 :b8
-:7
-:b 3
-:set runtimepath
-:so ~\BmfFeat.vim
-:rtp
 
 # Search String History (newest to oldest):
 ?/"Just
@@ -58,59 +58,57 @@ $
 # Registers:
 "0	CHAR	0
 	SPR_902645_FIX_BeforeInstall.reg 
-"1	LINE	0
-	
+""1	LINE	0
+	set background=dark
 "2	LINE	0
 	
 "3	LINE	0
-			double xCompData[3];
+	
 "4	LINE	0
-			CComPtr<IMathVector> xComp;
+	
 "5	LINE	0
-	
+			double xCompData[3];
 "6	LINE	0
-	
+			CComPtr<IMathVector> xComp;
 "7	LINE	0
 	
-"8	CHAR	0
-	"set list
-	"set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
-	
+"8	LINE	0
 	
 "9	LINE	0
-			
+	
 "a	CHAR	0
 	-(plateThk - GAS_PORT_THD_DP);
 "d@	CHAR	0
 	
 "q	CHAR	0
 	;:€ýc€ýb€ý,€ý.
-""-	CHAR	0
-			
+"-	CHAR	0
+	light
 
 # File marks:
-'0  67  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'1  20  9  ~\_vimrc
-'2  18  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'3  5  72  T:\SolidWorks\swvbaserver fix\FixProcedure.txt
-'4  9  30  T:\SolidWorks\swvbaserver fix\FixProcedure.txt
-'5  50  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'6  115  0  D:\Dev_crnt\ATLProject1\ATLProject1\bmf.cpp
-'7  141  1  D:\Dev_crnt\ATLProject1\ATLProject1\ProfilePoints.cpp
-'8  7  24  ~\_vimrc
-'9  30  19  ~\_vimrc
+'0  26  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'1  67  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'2  19  9  ~\_vimrc
+'3  18  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'4  5  72  T:\SolidWorks\swvbaserver fix\FixProcedure.txt
+'5  9  30  T:\SolidWorks\swvbaserver fix\FixProcedure.txt
+'6  50  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'7  115  0  D:\Dev_crnt\ATLProject1\ATLProject1\bmf.cpp
+'8  141  1  D:\Dev_crnt\ATLProject1\ATLProject1\ProfilePoints.cpp
+'9  7  24  ~\_vimrc
 
 # Jumplist (newest first):
--'  67  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  26  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  27  0  ~\_vimrc
+-'  1  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1  0  ~\_vimrc
+-'  67  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
 -'  1  0  D:\Dev_crnt\ATLProject1\ATLProject1\__Tagbar__
 -'  10  0  D:\Dev_crnt\ATLProject1\ATLProject1\__Tagbar__
--'  51  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1  0  ~\_vimrc
--'  1  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  20  9  ~\_vimrc
--'  346  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  51  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  19  9  ~\_vimrc
+-'  346  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
 -'  2  0  ~\_vimrc
--'  28  0  ~\_vimrc
 -'  88  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
 -'  173  23  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
 -'  164  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
@@ -123,56 +121,56 @@ $
 -'  7  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfFlangeHalfBody.h
 -'  18  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfFlangeHalfBody.cpp
 -'  7  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.h
--'  1393  1  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1518  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1520  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1526  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1530  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1535  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1538  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  801  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1515  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1504  6  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1502  6  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1489  5  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1479  6  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1477  6  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1471  6  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1465  5  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1460  5  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1436  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1434  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1426  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1419  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1417  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1413  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1411  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1403  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1402  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1401  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1399  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1398  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1397  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1395  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1394  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1236  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1214  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1195  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1164  2  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  958  6  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  942  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  935  3  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  886  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  877  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  872  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  868  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  862  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  860  4  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  845  2  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  837  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  831  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  821  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  817  0  D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1393  1  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1518  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1520  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1526  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1530  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1535  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1538  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  801  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1515  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1504  6  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1502  6  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1489  5  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1479  6  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1477  6  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1471  6  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1465  5  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1460  5  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1436  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1434  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1426  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1419  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1417  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1413  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1411  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1403  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1402  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1401  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1399  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1398  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1397  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1395  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1394  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1236  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1214  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1195  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  1164  2  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  958  6  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  942  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  935  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  886  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  877  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  872  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  868  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  862  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  860  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  845  2  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  837  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  831  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  821  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+-'  817  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
 -'  88  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
 -'  173  23  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
 -'  164  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
@@ -183,11 +181,83 @@ $
 -'  11  0  D:\Dev_crnt\ATLProject1\ATLProject1\FlangeMachining.cpp
 -'  1  0  D:\Dev_crnt\ATLProject1\ATLProject1\BodyMachining.cpp
 -'  7  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfFlangeHalfBody.h
+-'  1  0  D:\Dev_crnt\ATLProject1\ATLProject1\__Tagbar__
+-'  10  0  D:\Dev_crnt\ATLProject1\ATLProject1\__Tagbar__
+-'  88  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
+-'  173  23  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
 
 # History of marks within files (newest to oldest):
 
-> D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-	"	67	0
+> ~\_vimrc
+	"	27	0
+	.	11	0
+	+	36	0
+	+	36	0
+	+	36	28
+	+	36	0
+	+	34	4
+	+	33	3
+	+	36	7
+	+	40	0
+	+	37	34
+	+	38	44
+	+	36	0
+	+	24	0
+	+	36	0
+	+	36	0
+	+	22	0
+	+	24	27
+	+	24	27
+	+	29	0
+	+	24	0
+	+	40	0
+	+	23	0
+	+	24	0
+	+	27	0
+	+	31	9
+	+	27	1
+	+	19	10
+	+	29	0
+	+	25	0
+	+	9	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	20
+	+	29	20
+	+	4	7
+	+	6	8
+	+	2	6
+	+	7	24
+	+	14	0
+	+	29	0
+	+	29	0
+	+	29	0
+	+	8	19
+	+	21	18
+	+	20	0
+	+	27	0
+	+	25	28
+	+	30	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	8	18
+	+	14	0
+	+	8	0
+	+	11	0
+
+> C:\Program Files (x86)\Vim\vim74\doc\intro.txt
+	"	409	28
+
+> C:\Program Files (x86)\Vim\vim74\doc\options.txt
+	"	6998	6
+
+> d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+	"	26	0
 	^	51	1
 	.	51	3
 	+	51	32
@@ -290,65 +360,6 @@ $
 	+	224	4
 	+	265	0
 	+	51	3
-
-> ~\_vimrc
-	"	1	0
-	^	27	0
-	.	14	0
-	+	37	0
-	+	37	0
-	+	37	28
-	+	37	0
-	+	35	4
-	+	34	3
-	+	37	7
-	+	41	0
-	+	38	34
-	+	39	44
-	+	37	0
-	+	25	0
-	+	37	0
-	+	37	0
-	+	23	0
-	+	25	27
-	+	25	27
-	+	30	0
-	+	25	0
-	+	41	0
-	+	24	0
-	+	25	0
-	+	28	0
-	+	32	9
-	+	28	1
-	+	20	10
-	+	30	0
-	+	26	0
-	+	10	0
-	+	8	0
-	+	8	0
-	+	9	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	9	20
-	+	30	20
-	+	4	7
-	+	6	8
-	+	2	6
-	+	7	24
-	+	14	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	8	19
-	+	22	18
-	+	21	0
-	+	28	0
-	+	26	28
-	+	31	0
-	+	12	0
-	+	13	0
-	+	14	0
 
 > D:\Dev_crnt\ATLProject1\ATLProject1\__Tagbar__
 	"	1	0
@@ -909,6 +920,3 @@ $
 
 > ~\vimfiles\_gvimrc
 	"	1	0
-
-> C:\Program Files (x86)\Vim\vim74\doc\options.txt
-	"	8050	24

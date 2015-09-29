@@ -5,13 +5,12 @@ execute pathogen#infect()
 
 syntax on
 filetype plugin indent on
-set background=light
 colorscheme solarized
 
 
+set background=light
 set list
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
-
 set backspace=2
 set autochdir
 set tabstop=4

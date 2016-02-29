@@ -17,8 +17,8 @@
 $
 
 # Command Line History (newest to oldest):
-:q
 :e $MYVIMRC
+:q
 :w
 :so $MYVIMRC
 :ls
@@ -86,20 +86,20 @@ $
 	     
 
 # File marks:
-'0  22  7  ~\_vimrc
-'1  11  13  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
-'2  28  0  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
-'3  17  0  ~\_vimrc
-'4  10  0  ~\NERD_tree_1
-'5  13  14  ~\_vimrc
-'6  26  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'7  67  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'8  19  9  ~\_vimrc
-'9  18  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'0  1  0  ~\_vimrc
+'1  22  7  ~\_vimrc
+'2  11  13  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+'3  28  0  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+'4  17  0  ~\_vimrc
+'5  10  0  ~\NERD_tree_1
+'6  13  14  ~\_vimrc
+'7  26  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'8  67  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'9  19  9  ~\_vimrc
 
 # Jumplist (newest first):
--'  22  7  ~\_vimrc
 -'  1  0  ~\_vimrc
+-'  22  7  ~\_vimrc
 -'  11  13  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
 -'  23  0  ~\_vimrc
 -'  16  6  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
@@ -199,7 +199,7 @@ $
 # History of marks within files (newest to oldest):
 
 > ~\_vimrc
-	"	22	7
+	"	1	0
 	^	23	0
 	.	23	0
 	+	41	0

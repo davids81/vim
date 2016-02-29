@@ -1,2 +1,5 @@
 [credential]
 	helper = wincred
+[user]
+	email = dstockdale@gmail.com
+	name = David Stockdale

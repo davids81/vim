@@ -17,26 +17,26 @@
 $
 
 # Command Line History (newest to oldest):
-:so ~/_vimrc
-:bn
-:e d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-:so %
-:w
 :q
-:help tabstop
-:help backspace
-:e ~/_vimrc
-:bnext
-:b
-:e D:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-:b 1
+:e $MYVIMRC
+:w
+:so $MYVIMRC
 :ls
-:so ~\_vimrc
-:b 2
-:2
-:.b10
-:b 6
-:b8
+:bn
+:e pageStyle.css
+:pwd
+:so $myvimrc
+:help cursorline
+:e $myvimrc
+:e c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+:e
+:split
+:bnext
+:bne
+:e C:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+:bnex
+:so %
+:$myvimrc
 
 # Search String History (newest to oldest):
 ?/"Just
@@ -58,46 +58,81 @@ $
 # Registers:
 "0	CHAR	0
 	SPR_902645_FIX_BeforeInstall.reg 
-""1	LINE	0
-	set background=dark
+"1	LINE	0
+	gui=bo
 "2	LINE	0
-	
+	:hi Cursor ctermfg=White ctermbh=Yellow cterm=bold guifg=white guibg=yellow
 "3	LINE	0
-	
+	set CursorLine
 "4	LINE	0
-	
+	set CursorColumn
 "5	LINE	0
-			double xCompData[3];
+		vertical-align: middle;
 "6	LINE	0
-			CComPtr<IMathVector> xComp;
+	
 "7	LINE	0
-	
+		height: 50px;
 "8	LINE	0
-	
+		display: table-cell;
 "9	LINE	0
-	
+		vertical-align: middle;
 "a	CHAR	0
 	-(plateThk - GAS_PORT_THD_DP);
 "d@	CHAR	0
 	
 "q	CHAR	0
 	;:€ýc€ýb€ý,€ý.
-"-	CHAR	0
-	light
+""-	CHAR	0
+	     
 
 # File marks:
-'0  26  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'1  67  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'2  19  9  ~\_vimrc
-'3  18  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'4  5  72  T:\SolidWorks\swvbaserver fix\FixProcedure.txt
-'5  9  30  T:\SolidWorks\swvbaserver fix\FixProcedure.txt
-'6  50  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
-'7  115  0  D:\Dev_crnt\ATLProject1\ATLProject1\bmf.cpp
-'8  141  1  D:\Dev_crnt\ATLProject1\ATLProject1\ProfilePoints.cpp
-'9  7  24  ~\_vimrc
+'0  22  7  ~\_vimrc
+'1  11  13  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+'2  28  0  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+'3  17  0  ~\_vimrc
+'4  10  0  ~\NERD_tree_1
+'5  13  14  ~\_vimrc
+'6  26  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'7  67  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
+'8  19  9  ~\_vimrc
+'9  18  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
 
 # Jumplist (newest first):
+-'  22  7  ~\_vimrc
+-'  1  0  ~\_vimrc
+-'  11  13  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  23  0  ~\_vimrc
+-'  16  6  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  19  9  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  8  0  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  1  0  ~\=bold
+-'  44  0  ~\_vimrc
+-'  31  0  ~\_vimrc
+-'  12  5  ~\_vimrc
+-'  12  0  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  1  0  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  28  0  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  29  0  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  25  19  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  11  13  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  9  28  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  22  0  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  15  0  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  6  1  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  5  14  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  7  3  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  1  0  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  4  8  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  17  0  ~\_vimrc
+-'  3  0  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  5  6  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  4  24  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  10  0  ~\NERD_tree_1
+-'  23  0  ~\NERD_tree_1
+-'  1  0  ~\NERD_tree_1
+-'  38  0  ~\_vimrc
+-'  8  20  ~\_vimrc
+-'  13  14  ~\_vimrc
 -'  26  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
 -'  27  0  ~\_vimrc
 -'  1  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
@@ -156,69 +191,45 @@ $
 -'  1236  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
 -'  1214  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
 -'  1195  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  1164  2  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  958  6  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  942  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  935  3  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  886  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  877  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  872  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  868  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  862  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  860  4  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  845  2  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  837  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  831  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  821  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  817  0  d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
--'  88  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
--'  173  23  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
--'  164  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
--'  143  59  D:\Dev_crnt\ATLProject1\ATLProject1\BmfProfileFaceFlat.cpp
--'  1  0  D:\Dev_crnt\ATLProject1\ATLProject1\FlangeMachining.cpp
--'  1  0  D:\Dev_crnt\ATLProject1\ATLProject1\FlangeMachining.h
--'  42  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfProfileFace.cpp
--'  11  0  D:\Dev_crnt\ATLProject1\ATLProject1\FlangeMachining.cpp
--'  1  0  D:\Dev_crnt\ATLProject1\ATLProject1\BodyMachining.cpp
--'  7  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfFlangeHalfBody.h
--'  1  0  D:\Dev_crnt\ATLProject1\ATLProject1\__Tagbar__
--'  10  0  D:\Dev_crnt\ATLProject1\ATLProject1\__Tagbar__
--'  88  0  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
--'  173  23  D:\Dev_crnt\ATLProject1\ATLProject1\BmfIdManagerUtil.cpp
+-'  11  13  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  16  6  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+-'  19  9  C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+-'  8  0  c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
 
 # History of marks within files (newest to oldest):
 
 > ~\_vimrc
-	"	27	0
-	.	11	0
-	+	36	0
-	+	36	0
-	+	36	28
-	+	36	0
-	+	34	4
-	+	33	3
-	+	36	7
-	+	40	0
-	+	37	34
-	+	38	44
-	+	36	0
-	+	24	0
-	+	36	0
-	+	36	0
-	+	22	0
-	+	24	27
-	+	24	27
-	+	29	0
-	+	24	0
-	+	40	0
-	+	23	0
-	+	24	0
+	"	22	7
+	^	23	0
+	.	23	0
+	+	41	0
+	+	41	0
+	+	41	28
+	+	41	0
+	+	39	4
+	+	38	3
+	+	41	7
+	+	45	0
+	+	42	34
+	+	43	44
+	+	41	0
 	+	27	0
-	+	31	9
-	+	27	1
-	+	19	10
-	+	29	0
+	+	41	0
+	+	41	0
 	+	25	0
+	+	27	27
+	+	27	27
+	+	32	0
+	+	27	0
+	+	45	0
+	+	26	0
+	+	27	0
+	+	30	0
+	+	34	9
+	+	30	1
+	+	21	10
+	+	32	0
+	+	28	0
 	+	9	0
 	+	8	0
 	+	8	0
@@ -227,34 +238,137 @@ $
 	+	8	0
 	+	8	0
 	+	8	20
-	+	29	20
+	+	32	20
 	+	4	7
 	+	6	8
 	+	2	6
 	+	7	24
-	+	14	0
-	+	29	0
-	+	29	0
-	+	29	0
+	+	16	0
+	+	32	0
+	+	32	0
+	+	32	0
 	+	8	19
-	+	21	18
-	+	20	0
-	+	27	0
-	+	25	28
+	+	24	18
+	+	23	0
 	+	30	0
-	+	12	0
-	+	13	0
+	+	28	28
+	+	33	0
 	+	14	0
+	+	15	0
+	+	16	0
 	+	8	18
-	+	14	0
+	+	16	0
 	+	8	0
-	+	11	0
+	+	13	19
+	+	12	0
+	+	12	75
+	+	12	0
+	+	11	15
+	+	36	9
+	+	21	12
+	+	23	0
 
-> C:\Program Files (x86)\Vim\vim74\doc\intro.txt
-	"	409	28
+> c:\Users\David\Documents\Code\Coursera\FullStack\Somehtml.html
+	"	11	13
+	^	12	4
+	.	12	3
+	+	7	30
+	+	9	0
+	+	12	0
+	+	9	39
+	+	5	0
+	+	4	63
+	+	7	0
+	+	12	0
+	+	7	21
+	+	9	23
+	+	8	34
+	+	9	60
+	+	11	7
+	+	9	119
+	+	8	7
+	+	11	7
+	+	8	6
+	+	11	6
+	+	11	0
+	+	10	0
+	+	9	107
+	+	10	5
+	+	8	0
+	+	17	0
+	+	8	4
+	+	7	24
+	+	8	8
+	+	9	15
+	+	7	23
+	+	10	13
+	+	11	7
+	+	12	3
+
+> ~\=bold
+	"	1	0
 
 > C:\Program Files (x86)\Vim\vim74\doc\options.txt
-	"	6998	6
+	"	2317	0
+
+> C:\Users\David\Documents\Code\Coursera\FullStack\pageStyle.css
+	"	19	9
+	^	26	19
+	.	26	18
+	+	7	0
+	+	4	25
+	+	5	14
+	+	6	19
+	+	6	0
+	+	39	0
+	+	35	23
+	+	36	24
+	+	37	12
+	+	38	14
+	+	18	1
+	+	19	23
+	+	22	16
+	+	23	13
+	+	8	0
+	+	15	0
+	+	9	10
+	+	11	13
+	+	25	20
+	+	26	23
+	+	22	1
+	+	26	0
+	+	13	24
+	+	14	15
+	+	22	22
+	+	14	19
+	+	26	23
+	+	14	20
+	+	15	0
+	+	24	13
+	+	31	0
+	+	30	24
+	+	30	0
+	+	33	1
+	+	39	3
+	+	11	18
+	+	12	18
+	+	26	18
+
+> C:\Program Files (x86)\Vim\vim74\doc\intro.txt
+	"	455	21
+
+> ~\NERD_tree_1
+	"	10	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~\vimfiles\bundle\nerdtree\doc\NERD_tree.txt
+	"	1	0
 
 > d:\Dev_crnt\ATLProject1\ATLProject1\BilletMachining.cpp
 	"	26	0
@@ -728,9 +842,6 @@ $
 > D:\Dev_crnt\ATLProject1\ATLProject1\bmf
 	"	1	0
 
-> ~\vimfiles\bundle\nerdtree\doc\NERD_tree.txt
-	"	13	0
-
 > D:\Dev_crnt\ATLProject1\ATLProject1\ProfilePoints.h
 	"	1	0
 	^	48	42
@@ -839,11 +950,6 @@ $
 
 > ~\vimfiles\doc\tagbar.txt
 	"	1	0
-
-> ~\NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
 
 > C:\Users\DSTOCKDALE\Desktop\__Tagbar__
 	"	1	0

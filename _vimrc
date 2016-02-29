@@ -7,8 +7,10 @@ syntax on
 filetype plugin indent on
 colorscheme solarized
 
+set cursorline
+set cursorcolumn
 
-set background=light
+set background=dark
 set list
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set backspace=2
@@ -16,6 +18,7 @@ set autochdir
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 set number
 
 "General short-cuts
@@ -29,6 +32,8 @@ nnoremap ; :
 set wildmode=longest,list,full
 set wildmenu
 set hidden
+
+set list!
 if has("gui_running")
 	set guifont=Consolas:h11:cANSI
 endif
